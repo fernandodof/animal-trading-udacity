@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid #F1F1F1;
+}
+
+.animal-image {
+    width: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.animal-image:hover {
+    transform: scale(1.1);
+ }
+
+.fact {
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+.animal-info {
+    border: 1px solid #F1F1F1;
+}
+
+.animal-name, .animal-image, .animal-info {
+    padding: 10px;
+}
